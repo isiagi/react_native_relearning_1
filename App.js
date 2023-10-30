@@ -4,9 +4,10 @@ import ButtonComponent from "./components/Button";
 import FlatListComponent from "./components/FlatListComponent";
 import ImageComponent from "./components/Image";
 import ImageBackgroundComponent from "./components/ImageBackgroundComponent";
+import KeyboardAvoidingComponent from "./components/KeyboardAvoidingComponent";
 
 export default function App() {
-  return <ImageBackgroundComponent />;
+  return <KeyboardAvoidingComponent />;
 }
 
 const styles = StyleSheet.create({});
