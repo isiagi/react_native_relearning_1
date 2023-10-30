@@ -1,11 +1,12 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import ActivityIndicatorComponent from "./components/ActivityIndicator";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello There</Text>
       <StatusBar style="auto" />
+      <ActivityIndicatorComponent />
     </View>
   );
 }
