@@ -5,9 +5,10 @@ import FlatListComponent from "./components/FlatListComponent";
 import ImageComponent from "./components/Image";
 import ImageBackgroundComponent from "./components/ImageBackgroundComponent";
 import KeyboardAvoidingComponent from "./components/KeyboardAvoidingComponent";
+import ModalComponent from "./components/ModalComponent";
 
 export default function App() {
-  return <KeyboardAvoidingComponent />;
+  return <ModalComponent />;
 }
 
 const styles = StyleSheet.create({});
