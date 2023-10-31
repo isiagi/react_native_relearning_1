@@ -14,9 +14,10 @@ import SwitchComponent from "./components/SwitchComponent";
 import TextInputComponent from "./components/TextInputComponent";
 import TouchableHighlightExample from "./components/TouchableHighlightExample";
 import TouchableOpacityExample from "./components/TouchableOpacityExample";
+import TouchableWithoutFeedbackExample from "./components/TouchableWithoutFeedback";
 
 export default function App() {
-  return <TouchableOpacityExample />;
+  return <TouchableWithoutFeedbackExample />;
 }
 
 const styles = StyleSheet.create({});
