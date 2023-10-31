@@ -12,9 +12,10 @@ import SectionListComponent from "./components/SectionListComponent";
 import StatusBarComponent from "./components/StatusBarComponent";
 import SwitchComponent from "./components/SwitchComponent";
 import TextInputComponent from "./components/TextInputComponent";
+import TouchableHighlightExample from "./components/TouchableHighlightExample";
 
 export default function App() {
-  return <TextInputComponent />;
+  return <TouchableHighlightExample />;
 }
 
 const styles = StyleSheet.create({});
