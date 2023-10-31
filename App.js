@@ -7,9 +7,10 @@ import ImageBackgroundComponent from "./components/ImageBackgroundComponent";
 import KeyboardAvoidingComponent from "./components/KeyboardAvoidingComponent";
 import ModalComponent from "./components/ModalComponent";
 import RefreshControlComponent from "./components/RefreshControlComponent";
+import ScrollViewComponent from "./components/ScrollViewComponent";
 
 export default function App() {
-  return <RefreshControlComponent />;
+  return <ScrollViewComponent />;
 }
 
 const styles = StyleSheet.create({});
