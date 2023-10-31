@@ -9,9 +9,10 @@ import ModalComponent from "./components/ModalComponent";
 import RefreshControlComponent from "./components/RefreshControlComponent";
 import ScrollViewComponent from "./components/ScrollViewComponent";
 import SectionListComponent from "./components/SectionListComponent";
+import StatusBarComponent from "./components/StatusBarComponent";
 
 export default function App() {
-  return <SectionListComponent />;
+  return <StatusBarComponent />;
 }
 
 const styles = StyleSheet.create({});
