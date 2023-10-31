@@ -11,9 +11,10 @@ import ScrollViewComponent from "./components/ScrollViewComponent";
 import SectionListComponent from "./components/SectionListComponent";
 import StatusBarComponent from "./components/StatusBarComponent";
 import SwitchComponent from "./components/SwitchComponent";
+import TextInputComponent from "./components/TextInputComponent";
 
 export default function App() {
-  return <SwitchComponent />;
+  return <TextInputComponent />;
 }
 
 const styles = StyleSheet.create({});
