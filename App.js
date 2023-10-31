@@ -8,9 +8,10 @@ import KeyboardAvoidingComponent from "./components/KeyboardAvoidingComponent";
 import ModalComponent from "./components/ModalComponent";
 import RefreshControlComponent from "./components/RefreshControlComponent";
 import ScrollViewComponent from "./components/ScrollViewComponent";
+import SectionListComponent from "./components/SectionListComponent";
 
 export default function App() {
-  return <ScrollViewComponent />;
+  return <SectionListComponent />;
 }
 
 const styles = StyleSheet.create({});
