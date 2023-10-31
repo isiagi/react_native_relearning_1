@@ -10,9 +10,10 @@ import RefreshControlComponent from "./components/RefreshControlComponent";
 import ScrollViewComponent from "./components/ScrollViewComponent";
 import SectionListComponent from "./components/SectionListComponent";
 import StatusBarComponent from "./components/StatusBarComponent";
+import SwitchComponent from "./components/SwitchComponent";
 
 export default function App() {
-  return <StatusBarComponent />;
+  return <SwitchComponent />;
 }
 
 const styles = StyleSheet.create({});
