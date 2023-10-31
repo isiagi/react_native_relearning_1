@@ -13,9 +13,10 @@ import StatusBarComponent from "./components/StatusBarComponent";
 import SwitchComponent from "./components/SwitchComponent";
 import TextInputComponent from "./components/TextInputComponent";
 import TouchableHighlightExample from "./components/TouchableHighlightExample";
+import TouchableOpacityExample from "./components/TouchableOpacityExample";
 
 export default function App() {
-  return <TouchableHighlightExample />;
+  return <TouchableOpacityExample />;
 }
 
 const styles = StyleSheet.create({});
